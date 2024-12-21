@@ -21,7 +21,6 @@ const app = express();
 //   })
 // );
 app.use(express.json())
-console.log("sdfsdfsdf")
 app.get("/", (req, res) => {
     res.send("Hi there")
 })
